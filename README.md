@@ -36,7 +36,7 @@ Note: Firefox currently has limited support for Web Speech API.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/voice-controlled-audio.git
+git clone https://github.com/vatsalbudhbhatti/voice-controlled-audio.git
 ```
 
 2. Navigate to project directory:
