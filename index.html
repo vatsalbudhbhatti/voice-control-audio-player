@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Voice Controlled Audio Player</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Voice Controlled Audio Player</h1>
+
+		<div id="status" class="status not-listening">
+			Click Start Listening and try voice commands
+		</div>
+
+		<audio id="audioPlayer" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+
+		<button id="startButton">Start Listening</button>
+		<button id="stopButton">Stop Listening</button>
+
+		<div class="commands">
+			<h3>Available Commands:</h3>
+			<p>"Play" - Start playing audio</p>
+			<p>"Pause" or "Stop" - Stop playing audio</p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
